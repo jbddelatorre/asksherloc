@@ -607,8 +607,13 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #ea9579;
+  /*text-shadow: 1px 1px 1px black;*/
+}
+
+#hero h1 span {
+  color: #49afa7;
 }
 
 @media (max-width: 768px) {
@@ -918,7 +923,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-title .sub-lead {
-  color:#af7536 !important;
+  color:#7d5427 !important;
 }
 
 .section-header .section-description {
